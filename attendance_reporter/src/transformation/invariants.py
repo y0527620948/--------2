@@ -1,5 +1,6 @@
 from datetime import datetime, time, date
 from src.models.domain import AttendanceRow
+MAX_TIME_SHIFT_MINUTES = 30
 
 class InvariantValidator:
     """
